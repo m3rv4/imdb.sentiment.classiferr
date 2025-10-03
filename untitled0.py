@@ -173,6 +173,6 @@ def predict_review(review_text):
     pred = model.predict(vec)[0]
     return "Positive" if pred == 1 else "Negative"
 
-# Provo
+
 print(predict_review("I really loved this movie, it was fantastic!"))
 print(predict_review("This was the worst movie I have ever seen."))
